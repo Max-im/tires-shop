@@ -842,7 +842,7 @@ width: 110%;
 	}
 
 	.correct{
-		margin: 14px 0 -2px 16px;
+		margin: 16px 0 -2px 16px;
 	}	
 	.box{
 		margin: 10px 10px 0 20px;
@@ -880,7 +880,7 @@ width: 110%;
 	    line-height: 8px;
 	}
 
-
+	
 	.button{
 		width: 82px;
 		height: 25px;
@@ -888,8 +888,8 @@ width: 110%;
 		color: #e5e9ea;
 		font-family: arial;
 		font-size: 11px;
-		margin: 19px 0 0 26px;
-		letter-spacing: .5px;
+		margin: 20px 0 0 25px;
+		letter-spacing: 1.1px;
 		@include bor-rad(20px);
 		background: -webkit-linear-gradient(#206988, #114165, #0c3256);
 		background: -o-linear-gradient(#206988, #114165, #0c3256);
