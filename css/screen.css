@@ -407,8 +407,8 @@ body {
   text-align: left;
 }
 .settingsLeft td select {
-  height: 17px;
-  width: 107px;
+  height: 19px;
+  width: 103px;
 }
 .settingsLeft td span {
   font-family: arial;
@@ -418,18 +418,22 @@ body {
 .settingsLeft .thDisk {
   color: #154468;
   font-weight: 900;
+  letter-spacing: 1.5px;
   margin: 0 0 0 7px;
-  padding: 0 0 0 0;
+  padding: 0 0 3px 4px;
 }
 .settingsLeft .findAuto {
   color: #154468;
   font-weight: 900;
   font-size: 12px;
   text-align: center;
+  letter-spacing: 1.5px;
+  padding: 0 0 7px 21px;
 }
 .settingsLeft .right {
   text-align: right;
   margin: 0 7px 0  0;
+  padding: 0 3px 7px 0;
 }
 .settingsLeft .setTr1 {
   height: 20px;
@@ -446,8 +450,42 @@ body {
 .settingsLeft .secTd {
   width: 150px;
 }
+.settingsLeft .tr2td3 {
+  padding: 0 0 3px 0;
+}
+.settingsLeft .tr2td4 {
+  padding: 0 0 1px 0;
+}
+.settingsLeft .tr3td1 {
+  padding: 1px 0 0 1px;
+  line-height: 8px;
+}
+.settingsLeft .tr3td3 {
+  line-height: 8px;
+  padding: 0 0 0 0;
+}
+.settingsLeft .tr4td1 {
+  padding: 4px 0 0 2px;
+  line-height: 8px;
+}
+.settingsLeft .tr4td2 {
+  padding: 3px 0 0 0;
+}
+.settingsLeft .tr4td4 {
+  line-height: 8px;
+}
+.settingsLeft .tr5td1 {
+  padding: 2px 0 0 0;
+}
+.settingsLeft .tr5td2 {
+  padding: 4px 0 0 0;
+}
+.settingsLeft .tr5td3 {
+  padding: 0 0 2px 0;
+}
 .settingsLeft .but {
   color: #154467;
+  margin: 0 0 0 40px;
   font-size: 14px;
   width: 55px;
   height: 16px;
