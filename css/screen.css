@@ -507,16 +507,96 @@ body {
   -moz-box-sizing: padding-box;
   -webkit-box-sizing: padding-box;
   -o-box-sizing: padding-box;
-  padding: 6px 15px 10px 10px;
+  padding: 1px 0px 5px 12px;
 }
 .settingsCenter td {
   font-size: 10px;
   font-family: lucidas;
 }
 .settingsCenter td span {
-  font-size: 10px;
+  font-size: 15px;
+  position: relative;
+  top: -2px;
 }
-.settingsCenter td .but {
+.settingsCenter select {
+  width: 50px;
+  height: 17px;
+}
+.settingsCenter .tr1td1 {
+  color: #114165;
+  font-size: 12px;
+  font-family: arial;
+  font-weight: 900;
+  letter-spacing: 1px;
+  word-spacing: 1.4px;
+  padding: 0 0 9px 0;
+}
+.settingsCenter .tr2td1 {
+  padding: 5px 8px 0 1px;
+  font-family: arial;
+}
+.settingsCenter .tr2td2 {
+  padding: 0 0 0 0;
+}
+.settingsCenter .tr2td3 {
+  position: relative;
+  left: -3px;
+}
+.settingsCenter .tr3td1 {
+  font-size: 11px;
+  font-family: arial;
+  padding: 6px 0 0 35px;
+}
+.settingsCenter .tr4td2 {
+  padding: 5px 0 0 0;
+}
+.settingsCenter .tr4td2 select {
+  width: 45px;
+}
+.settingsCenter .tr4td1 {
+  position: relative;
+  top: -11px;
+  left: 3px;
+}
+.settingsCenter .setCtntBoxWr {
+  height: 14.5px;
+}
+.settingsCenter .trBox {
+  position: relative;
+  top: 0;
+  left: -5px;
+  opacity: 0;
+}
+.settingsCenter .trLab {
+  font-size: 12px;
+  position: relative;
+  left: -20px;
+  line-height: 13px;
+}
+.settingsCenter .trLab::before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  /*border: 1px solid #114165;*/
+  vertical-align: middle;
+  position: relative;
+  left: -4px;
+  cursor: pointer;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+}
+.settingsCenter .trBox:checked + .trLab:before {
+  content: "\2713";
+  font-size: 15px;
+  color: #000;
+  /*vertical-align: top;*/
+  text-align: center;
+  line-height: 8px;
+}
+.settingsCenter .but {
   color: #154467;
   font-size: 14px;
   width: 55px;
@@ -526,10 +606,9 @@ body {
   line-height: 14px;
   font-style: italic;
   text-decoration: underline;
-}
-.settingsCenter td select {
-  width: 50px;
-  height: 17px;
+  position: relative;
+  top: 2px;
+  left: -13px;
 }
 
 .settingsRight {
