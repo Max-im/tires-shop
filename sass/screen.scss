@@ -263,7 +263,7 @@ body{
 
 				
 	}
-		li:hover{
+		.mainMenu li:hover{
 			@include grad(#1f6585, #0d3458);
 			a{
 				color: #fff;
@@ -442,6 +442,7 @@ body{
 			line-height: 14px;
 			font-style: italic;
 			text-decoration: underline;
+			cursor: pointer;
 		}
 }
 
@@ -564,12 +565,8 @@ body{
 		position: relative;
 		top: 2px;
 		left: -13px;
+		cursor: pointer;
 	}
-
-		
-
-	
-
 }
 
 
@@ -581,14 +578,7 @@ body{
 	div{
 		float: left;
 	}
-	.setRightOne{
-		width: 170px;
-		border-right: 1px solid #bdc6ca;
-	}
-	.setRightTwo{
-		width: 80px;
-		
-	}
+
 	
 	td{
 		font-size: 10px;
@@ -596,7 +586,7 @@ body{
 		text-align: left;
 		select{
 			height: 17px;
-			width: 10px;
+			width: 57px;
 
 		}
 		span{
@@ -605,6 +595,89 @@ body{
 			color: #77858b;
 		}
 	}
+	
+
+
+	.setRightOne{
+		width: 176px;
+		border-right: 1px solid #bdc6ca;
+
+		.tr1td1{
+			color: #114165;
+			font-family: arial;
+			font-size: 12px;
+			letter-spacing: 2px;
+			font-weight: 900;
+			padding: 0 0 0 10px;
+		}
+		.tr2td1{
+			padding: 7px 0 0 15px;
+			letter-spacing: 1px;
+		}
+		.tr2td2{
+			padding: 7px 12px 0 0;			
+		}
+		.tr3td1{
+			padding: 3px 0 0 15px;
+			letter-spacing: 1px;
+			line-height: 8.4px;
+			span{
+				padding: 0 0 0 2px;
+			}
+			.spanTwo{
+				letter-spacing: .7px;	
+			}
+		}
+		.tr3td2{
+			position: relative;
+			top: 7px;
+			left: -1px;
+			select{
+				width: 50px;
+			}
+		}
+		.tr4td1{
+			padding: 2px 0 0 15px;
+			letter-spacing: 1px;
+			span{
+				line-height: 8px;
+				letter-spacing: 1.2px;
+			}
+		}
+		.tr4td2{
+			padding: 6px 0 0 0;
+		}
+
+	}
+
+
+
+	.setRightTwo{
+		width: 80px;
+		.tr1td1{
+			padding: 4px 0 0 10px;
+			line-height: 7.8px;
+			font-size: 9px;
+			letter-spacing: .5px;
+			span{
+				font-size: 8px;
+				letter-spacing: 1px;
+				padding: 0 0 0 0;
+			}
+		}
+		.tr2tr1{
+			padding: 3px 0 0 12px;
+			
+		}
+		.tr3td1{
+			padding: 6px 0 0 10px;
+			line-height: 8.9px;
+		}
+		.tr4td1{
+			padding: 3px 0 0 12px;
+		}
+	}
+	
 	.but{
 			color: #154467;
 			font-size: 14px;
@@ -615,6 +688,10 @@ body{
 			line-height: 14px;
 			font-style: italic;
 			text-decoration: underline;
+			cursor: pointer;
+			position: relative;
+			top: 4px;
+			left: 15px;	
 		}
 
 
@@ -1036,6 +1113,7 @@ width: 110%;
 		background: -moz-linear-gradient(#206988, #114165, #0c3256);
 		background: linear-gradient(#206988, #114165, #0c3256);
 		@include boxsh(3px, 3px, 2px, #c8c8c8);
+		cursor: pointer;
 
 	}
 
