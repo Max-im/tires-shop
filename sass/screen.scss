@@ -342,6 +342,12 @@ body{
 		select{
 			height: 19px;
 			width: 103px;
+			font-size: 11px;
+			font-family: arial;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			background: url(../img/select.jpg) no-repeat right center;
 
 		}
 		span{
@@ -467,6 +473,12 @@ body{
 	select{
 		width: 50px;
 		height: 17px;
+		font-size: 11px;
+		font-family: arial;
+		-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			background: url(../img/select.jpg) no-repeat right center;
 	}
 
 	.tr1td1{
@@ -587,7 +599,12 @@ body{
 		select{
 			height: 17px;
 			width: 57px;
-
+			font-size: 11px;
+			font-family: arial;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			background: url(../img/select.jpg) no-repeat right center;
 		}
 		span{
 			font-family: arial;

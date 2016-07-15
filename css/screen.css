@@ -409,6 +409,12 @@ body {
 .settingsLeft td select {
   height: 19px;
   width: 103px;
+  font-size: 11px;
+  font-family: arial;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../img/select.jpg) no-repeat right center;
 }
 .settingsLeft td span {
   font-family: arial;
@@ -522,6 +528,12 @@ body {
 .settingsCenter select {
   width: 50px;
   height: 17px;
+  font-size: 11px;
+  font-family: arial;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../img/select.jpg) no-repeat right center;
 }
 .settingsCenter .tr1td1 {
   color: #114165;
@@ -627,6 +639,12 @@ body {
 .settingsRight td select {
   height: 17px;
   width: 57px;
+  font-size: 11px;
+  font-family: arial;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../img/select.jpg) no-repeat right center;
 }
 .settingsRight td span {
   font-family: arial;
