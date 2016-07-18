@@ -401,12 +401,160 @@ body {
   -o-box-sizing: padding-box;
   padding: 0 13px 10px 16px;
 }
-.settingsLeft td {
+.settingsLeft form {
+  display: -webkit-grid;
+  display: -moz-grid;
+  display: -o-grid;
+  display: grid;
+  grid-columns: 25% 25% 25% 25%;
+  grid-rows: 15px 15px 15px 15px 15px 25px;
+}
+.settingsLeft #setLeftGrid1 {
+  -webkit-grid-column: 1;
+  grid-column: 1;
+  grid-row: 1;
+  -webkit-grid-row: 1;
+  -moz-grid-row: 1;
+}
+.settingsLeft #setLeftGrid2 {
+  -webkit-grid-column: 1;
+  grid-column: 1;
+  -webkit-grid-row: 2;
+  -moz-grid-row: 2;
+  grid-row: 2;
+}
+.settingsLeft #setLeftGrid3 {
+  -webkit-grid-column: 1;
+  grid-column: 1;
+  -webkit-grid-row: 3;
+  -moz-grid-row: 3;
+  grid-row: 3;
+}
+.settingsLeft #setLeftGrid4 {
+  -webkit-grid-column: 2;
+  grid-column: 2;
+  -webkit-grid-row: 1;
+  -moz-grid-row: 1;
+  grid-row: 1;
+}
+.settingsLeft #setLeftGrid5 {
+  -webkit-grid-column: 2;
+  grid-column: 2;
+  -webkit-grid-row: 2;
+  -moz-grid-row: 2;
+  grid-row: 2;
+}
+.settingsLeft #setLeftGrid6 {
+  -webkit-grid-column: 2;
+  grid-column: 2;
+  -webkit-grid-row: 3;
+  -moz-grid-row: 3;
+  grid-row: 3;
+}
+.settingsLeft #setLeftGrid7 {
+  -webkit-grid-column: 2;
+  grid-column: 2;
+  -webkit-grid-row: 4;
+  -moz-grid-row: 4;
+  grid-row: 4;
+}
+.settingsLeft #setLeftGrid8 {
+  -webkit-grid-column: 3;
+  grid-column: 3;
+  -webkit-grid-row: 1;
+  -moz-grid-row: 1;
+  grid-row: 1;
+}
+.settingsLeft #setLeftGrid9 {
+  -webkit-grid-column: 3;
+  grid-column: 3;
+  -webkit-grid-row: 2;
+  -moz-grid-row: 2;
+  grid-row: 2;
+}
+.settingsLeft #setLeftGrid10 {
+  -webkit-grid-column: 3;
+  grid-column: 3;
+  -webkit-grid-row: 3;
+  -moz-grid-row: 3;
+  grid-row: 3;
+}
+.settingsLeft #setLeftGrid11 {
+  -webkit-grid-column: 3;
+  grid-column: 3;
+  -webkit-grid-row: 4;
+  -moz-grid-row: 4;
+  grid-row: 4;
+}
+.settingsLeft #setLeftGrid12 {
+  -webkit-grid-column: 4;
+  grid-column: 4;
+  -webkit-grid-row: 1;
+  -moz-grid-row: 1;
+  grid-row: 1;
+}
+.settingsLeft #setLeftGrid13 {
+  -webkit-grid-column: 4;
+  grid-column: 4;
+  -webkit-grid-row: 2;
+  -moz-grid-row: 2;
+  grid-row: 2;
+}
+.settingsLeft #setLeftGrid14 {
+  -webkit-grid-column: 4;
+  grid-column: 4;
+  -webkit-grid-row: 3;
+  -moz-grid-row: 3;
+  grid-row: 3;
+}
+.settingsLeft #setLeftGrid15 {
+  -webkit-grid-column: 4;
+  grid-column: 4;
+  -webkit-grid-row: 4;
+  -moz-grid-row: 4;
+  grid-row: 4;
+}
+.settingsLeft #setLeftGrid16 {
+  -webkit-grid-column: 5;
+  grid-column: 5;
+  -webkit-grid-row: 1;
+  -moz-grid-row: 1;
+  grid-row: 1;
+}
+.settingsLeft #setLeftGrid17 {
+  -webkit-grid-column: 5;
+  grid-column: 5;
+  -webkit-grid-row: 2;
+  -moz-grid-row: 2;
+  grid-row: 2;
+}
+.settingsLeft #setLeftGrid18 {
+  -webkit-grid-column: 5;
+  grid-column: 5;
+  -webkit-grid-row: 3;
+  -moz-grid-row: 3;
+  grid-row: 3;
+}
+.settingsLeft #setLeftGrid19 {
+  -webkit-grid-column: 5;
+  grid-column: 5;
+  -webkit-grid-row: 4;
+  -moz-grid-row: 4;
+  grid-row: 4;
+}
+.settingsLeft #setLeftGrid20 {
+  -webkit-grid-column: 6;
+  grid-column: 6;
+  -webkit-grid-row: 4;
+  -moz-grid-row: 4;
+  grid-row: 4;
+}
+.settingsLeft p {
   font-size: 10px;
   font-family: arial;
   text-align: left;
 }
-.settingsLeft td select {
+.settingsLeft p select {
   height: 19px;
   width: 103px;
   font-size: 11px;
@@ -416,7 +564,7 @@ body {
   appearance: none;
   background: url(../img/select.jpg) no-repeat right center;
 }
-.settingsLeft td span {
+.settingsLeft p span {
   font-family: arial;
   font-size: 9px;
   color: #77858b;
@@ -440,54 +588,6 @@ body {
   text-align: right;
   margin: 0 7px 0  0;
   padding: 0 3px 7px 0;
-}
-.settingsLeft .setTr1 {
-  height: 20px;
-}
-.settingsLeft .littleSelect {
-  width: 60px;
-}
-.settingsLeft tr {
-  height: 20px;
-}
-.settingsLeft .frstTd {
-  width: 77px;
-}
-.settingsLeft .secTd {
-  width: 150px;
-}
-.settingsLeft .tr2td3 {
-  padding: 0 0 3px 0;
-}
-.settingsLeft .tr2td4 {
-  padding: 0 0 1px 0;
-}
-.settingsLeft .tr3td1 {
-  padding: 1px 0 0 1px;
-  line-height: 8px;
-}
-.settingsLeft .tr3td3 {
-  line-height: 8px;
-  padding: 0 0 0 0;
-}
-.settingsLeft .tr4td1 {
-  padding: 4px 0 0 2px;
-  line-height: 8px;
-}
-.settingsLeft .tr4td2 {
-  padding: 3px 0 0 0;
-}
-.settingsLeft .tr4td4 {
-  line-height: 8px;
-}
-.settingsLeft .tr5td1 {
-  padding: 2px 0 0 0;
-}
-.settingsLeft .tr5td2 {
-  padding: 4px 0 0 0;
-}
-.settingsLeft .tr5td3 {
-  padding: 0 0 2px 0;
 }
 .settingsLeft .but {
   color: #154467;
